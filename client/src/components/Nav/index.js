@@ -1,10 +1,11 @@
 import React from "react";
+import "./style.css";
 
 function Nav() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a className="navbar-brand" href="/">
-        React Reading List
+    <nav className="navbar navbar-expand-lg navBar">
+      <a className="navbar-brand navAnchor" href="/">
+        308 Fantasy League 
       </a>
     </nav>
   );

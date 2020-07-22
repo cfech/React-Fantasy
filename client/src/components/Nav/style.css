@@ -1,0 +1,11 @@
+.navBar{
+    background-color: #006a4e;
+}
+
+.navAnchor{
+    color:white;
+}
+
+.navAnchor:hover{
+    color:black;
+}
