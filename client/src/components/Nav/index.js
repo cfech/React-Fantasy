@@ -7,6 +7,9 @@ function Nav() {
       <a className="navbar-brand navAnchor" href="/">
         308 Fantasy League 
       </a>
+      <a className="navbar-brand navAnchor" href="/rules">
+        Rules
+      </a>
     </nav>
   );
 }
