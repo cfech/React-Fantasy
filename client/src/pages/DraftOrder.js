@@ -4,6 +4,8 @@ function DraftOrder() {
 var count = 0
 const [peopleArray, setPeopleArray] = useState([])
 
+const[previousArray, setPreviousArray]= useState({})
+
 const getRandomDraftOrder = () => {
     console.log("clicked")
     var members = ["Connor", "Dan", "Evan", "Gabe", "Ethan", "Vito", "Alec"]
@@ -13,24 +15,11 @@ const getRandomDraftOrder = () => {
         const rand = Math.floor(Math.random() * (i + 1));
         [newArr[i], newArr[rand]] = [newArr[rand], newArr[i]];
     }
-    // console.log(newArr)
     setPeopleArray(newArr)
-
-    // addToPage(newArr)
-    // addHistory(newArr)
 } 
-var list = document.getElementById("list")
 
-// const addToPage = (a) => {
-//     // list.textContent = ""
-//     for (let i = 0; i < a.length; i++) {
-//         let name = document.createElement("li")
-//         name.textContent = a[i]
-//         console.log(name)
-//         console.log(list)
-//         list.append(name)
-//     }
-// }
+
+
 
 // const addHistory = (b) =>{
 //     var oldListDiv = document.createElement("div")

@@ -54,3 +54,10 @@ button:hover{
 .historyH3{
     text-align: center;
 }
+
+.championShipDiv{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
+}
