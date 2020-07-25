@@ -10,6 +10,9 @@ function Nav() {
       <a className="navbar-brand navAnchor" href="/rules">
         Rules
       </a>
+      <a className="navbar-brand navAnchor" href="/draftorder">
+        Draft Order Generator
+      </a>
     </nav>
   );
 }

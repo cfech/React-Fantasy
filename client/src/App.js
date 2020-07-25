@@ -3,6 +3,7 @@ import NoMatch from "./pages/NoMatch";
 import Nav from "./components/Nav";
 import Home from "./pages/HomePage"
 import Rules from "./pages/rules"
+import DraftOrder from "./pages/DraftOrder"
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 // The app will not render correctly until you setup a Route component.
@@ -16,7 +17,7 @@ function App() {
         <Nav />
         <Switch>
           <Route exact path="/" component={Home} />
-         
+          <Route exact path="/draftorder" component={DraftOrder} />
           <Route exact path = "/rules" component = {Rules}/>
          <Route exact path = "*" component = {NoMatch}/>
         </Switch>
