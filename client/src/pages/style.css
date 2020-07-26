@@ -1,18 +1,23 @@
-.listCol{
+.listCol {
     text-align: center;
 }
 
-li{
+/* li {
+    width: 30%;
+    margin: auto;
+    font-size: 30px;
+} */
+
+.do{
     width: 30%;
     margin: auto;
     font-size: 30px;
 }
-
-.jH1{
+.jH1 {
     text-align: center;
-    
 }
-.listCol{
+
+.listCol {
     border: 2px solid black;
     height: 425px;
     overflow-x: auto;
@@ -20,8 +25,7 @@ li{
     margin-bottom: 10px;
 }
 
-
-.History{
+.History {
     border: 2px solid black;
     height: 500px;
     overflow-x: auto;
@@ -29,7 +33,7 @@ li{
     margin-bottom: 20px;
 }
 
-hr{
+hr {
     border: 3px solid black;
 }
 
@@ -37,28 +41,85 @@ body {
     background-color: #5d5c61;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: #557a95;
 }
 
-button{
+button {
     border-radius: 10px;
     background-color: #14a76c;
 }
-button:hover{
 
+button:hover {
     background-color: white;
     color: black;
 }
 
-.historyH3{
+.historyH3 {
     text-align: center;
 }
 
-.championShipDiv{
+.championShipDiv {
     background-color: white;
     width: 80%;
     margin: auto;
     margin-top: 15px;
-    padding:20px;
+    padding: 20px;
+}
+
+/* this is for sacko formula */
+
+.myTable1 {
+    font-size: 20px;
+}
+
+.tableHead {
+    font-size: 15px;
+    padding: 10px 10px;
+}
+
+.liPF {
+    padding-right: 12px;
+}
+
+.liM {
+    padding-right: 8px;
+}
+
+.liR {
+    padding-left: 8px;
+}
+
+.tableP {
+    border: dotted;
+    border-width: .5px;
+}
+
+.tableS {
+    border: solid;
+    border-width: .5px;
+}
+
+.asterisk {
+    font-size: 10px;
+}
+
+.explanation {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.rulesList {
+    border: solid;
+    border-width: 5px;
+    border-color: steelblue;
+    background-color: white;
+    color: black;
+    padding-right: 5px;
+}
+
+.rulesLI{
+    width: 90% !important;
+    font-size: 20px !important;
 }

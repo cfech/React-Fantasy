@@ -52,7 +52,7 @@ const getRandomDraftOrder = () => {
             <button onClick={getRandomDraftOrder} id="randomBTN">Click to generate draft order</button>
             <ol>
 {peopleArray.map((item) => (
-<li key = {item}>{item}</li>
+<li className="do" key = {item}>{item}</li>
 )
 )}
 

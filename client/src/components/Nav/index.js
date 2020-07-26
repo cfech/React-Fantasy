@@ -13,6 +13,9 @@ function Nav() {
       <a className="navbar-brand navAnchor" href="/draftorder">
         Draft Order Generator
       </a>
+      <a className="navbar-brand navAnchor" href="/sackoformula">
+        Sacko Formula
+      </a>
     </nav>
   );
 }
