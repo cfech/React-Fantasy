@@ -4,4 +4,27 @@
     border: 5px solid red;
     margin-top: 10px;
     padding: 7px;
+  
+    padding:20px;
+}
+
+.NameH3{
+    margin-right: 10px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.RecordH3{
+    font-size: 50px;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+
+.nameRecord{
+   justify-content: center;
+}
+
+.h1year{
+    text-align: center;
 }

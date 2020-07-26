@@ -1,0 +1,22 @@
+[
+    {
+        "id":0,
+        "Year": "2019-20",
+        "Champion":"Connor",
+        "Record": "12-4",
+        "MVP": "Aaron Jones",
+        "OtherNotablePayers": ["Zeke", "Deandre Hopkins", "George Kittle"],
+        "ChampionShipScore":"177.35 - 173.1"
+    },
+    {
+        "id":1,
+        "Year": "2018-19",
+        "Champion":"Alec",
+        "Record": "11-5",
+        "MVP": "Patrick Mahomes",
+        "OtherNotablePayers": ["Saquon Barkely", "Deandre Hopkins", "Travis Kelce"],
+        "ChampionShipScore":"176.75 - 155.5"
+    }
+
+    
+]

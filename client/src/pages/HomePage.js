@@ -8,13 +8,15 @@ import "./style.css"
 function Home() {
   return (
     <>
-<Banner></Banner>
+      <Banner></Banner>
 
-<div className="championShipDiv">
-<Champs/>
-</div>
+      <div className="championShipDiv">
+        <Champs />
+        <Champs />
+        <Champs />
+      </div>
 
-</>
+    </>
   );
 }
 
