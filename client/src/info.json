@@ -1,22 +1,42 @@
 [
     {
-        "id":0,
+        "id": 0,
         "Year": "2019-20",
-        "Champion":"Connor",
+        "Champion": "Connor",
         "Record": "12-4",
         "MVP": "Aaron Jones",
-        "OtherNotablePayers": ["Zeke", "Deandre Hopkins", "George Kittle"],
-        "ChampionShipScore":"177.35 - 173.1"
+        "OtherNotablePayers": [
+            "Zeke",
+            "Deandre Hopkins",
+            "George Kittle"
+        ],
+        "ChampionShipScore": "177.35 - 173.1",
+        "Blurb": "Aaron jones 53 yard touchdown run carried Team Fech to their first championship over team rosario the juggernaut team with christian mccfafrey and lamar jackson "
     },
     {
-        "id":1,
+        "id": 1,
         "Year": "2018-19",
-        "Champion":"Alec",
+        "Champion": "Alec",
         "Record": "11-5",
         "MVP": "Patrick Mahomes",
-        "OtherNotablePayers": ["Saquon Barkely", "Deandre Hopkins", "Travis Kelce"],
-        "ChampionShipScore":"176.75 - 155.5"
+        "OtherNotablePayers": [
+            "Saquon Barkely",
+            "Deandre Hopkins",
+            "Travis Kelce"
+        ],
+        "ChampionShipScore": "176.75 - 155.5",
+        "Blurb": "Patrick Mahomes and the record setting chiefs offense carried first year fantasy manager Alec Nathan to his first championship"
+    },
+    {
+        "id": 2,
+        "Year": "2017-18",
+        "Champion": "Andreas",
+        "Record": "N/A",
+        "MVP": "Alvin Kamara",
+        "OtherNotablePayers": [
+            "Mark Ingrim"
+        ],
+        "ChampionShipScore": "N/A",
+        "Blurb": "Limited Data Available for this season"
     }
-
-    
 ]
