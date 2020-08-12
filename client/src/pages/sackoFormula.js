@@ -2,9 +2,9 @@ import React from "react"
 import "./style.css"
 
 function Formula() {
-    return(
+    return (
         <>
-         <section className="row">
+            <section className="row">
                 <div className="col-md-8 offset-md-2 col-xs-12 mt-4 card">
 
 
@@ -38,7 +38,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax">-1</td>
                             <td className="tg-0lax tableS">1</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Dan</td>
@@ -52,7 +52,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">1</td>
                             <td className="tg-0lax tableS">2</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Alec</td>
@@ -66,7 +66,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">8</td>
                             <td className="tg-0lax tableS">3</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Hirschman</td>
@@ -80,7 +80,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">12</td>
                             <td className="tg-0lax tableS">4</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Andreas</td>
@@ -94,7 +94,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">17</td>
                             <td className="tg-0lax tableS">5</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Gabe</td>
@@ -108,7 +108,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">19</td>
                             <td className="tg-0lax tableS">6</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Vito</td>
@@ -122,7 +122,7 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">22</td>
                             <td className="tg-0lax tableS">7</td>
-                         
+
                         </tr>
                         <tr className="tableS">
                             <td className="tg-0lax tableS">Ethan</td>
@@ -136,50 +136,50 @@ function Formula() {
                             <td className="tg-0lax ">= </td>
                             <td className="tg-0lax ">23</td>
                             <td className="tg-0lax tableS">8</td>
-                         
+
                         </tr>
                     </table>
-                   <p className="asterisk"> data from my spreadsheet <br/> * Penalty for Collusion</p>
-                 
+                    <p className="asterisk"> data from my spreadsheet <br /> * Penalty for Collusion</p>
 
-                    </div>
-              </section>
-              <section className="row rules">
+
+                </div>
+            </section>
+            <section className="row rules">
                 <div className="col-md-8 offset-md-2 col-xs-12 mt-4 card">
                     <h1 className="explanation">Sacko Formula Explanation</h1>
                     <ul className="rulesList">
-                        <li className = "rulesLI">
+                        <li className="rulesLI">
                             Lower the score the better, The highest score (Rank 8) = Sacko
                         </li>
-                        <li className = "rulesLI">
+                        <li className="rulesLI">
                             Total = PF + Standings + High Points Rankings - # of 200 + pt weeks + # of Sub 100 pt weeks - # of High point weeks + Miscellaneous= Total
                         </li>
-                        <li className = "rulesLI">
+                        <li className="rulesLI">
                             PF = Total Points by team for the year, the team that had the most PF over the year gets pf = 1 , the team with the least amount gets pf = 8
                         </li>
-                        <li className = "rulesLI">
+                        <li className="rulesLI">
                             Standings = final standings of the year, team in 1st gets value = 1, team in last gets value = 8.
-                        </li> 
-                        <li className = "rulesLI">
+                        </li>
+                        <li className="rulesLI">
                             High points rankings, measures ceiling = take every teams high score of they year, team that got the highest overall points (highest ceiling) = 1 team that got the lowest personal high score of the year (lowest ceiling) = 8, see high points table
                         </li>
-                        <li className = "rulesLI">
-                           # of 200 point games = if a team got over 200 points in a week, a bonus of -1 is applied. ex: = 3 200+ pt weeks = -3
+                        <li className="rulesLI">
+                            # of 200 point games = if a team got over 200 points in a week, a bonus of -1 is applied. ex: = 3 200+ pt weeks = -3
                         </li>
-                        <li className = "rulesLI">
+                        <li className="rulesLI">
                             # of sub 100 point games = if a team scored lower than 100 points in a week, a penalty of +1 is applied. ex 3 sub 100 pt weeks = +3
                         </li>
-                        <li className = "rulesLI">
-                           # of high point weeks = if a team had the high points of the week in the league a bonus of -1 if applied. ex 3 high point weeks = -3
+                        <li className="rulesLI">
+                            # of high point weeks = if a team had the high points of the week in the league a bonus of -1 if applied. ex 3 high point weeks = -3
                         </li>
-                    <li className = "rulesLI">
-                        Miscellaneous = any penalties or bonuses that need to be applied. Ex of penalty = collusion, drop trades after trade deadline, anything to compromise the integrity of the league. 
+                        <li className="rulesLI">
+                            Miscellaneous = any penalties or bonuses that need to be applied. Ex of penalty = collusion, drop trades after trade deadline, anything to compromise the integrity of the league.
                     </li>
                     </ul>
 
 
                 </div>
-              </section>
+            </section>
         </>
     )
 }

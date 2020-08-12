@@ -11,7 +11,13 @@
             "George Kittle"
         ],
         "ChampionShipScore": "177.35 - 173.1",
-        "Blurb": "Aaron jones 53 yard touchdown run carried Team Fech to their first championship over team rosario the juggernaut team with christian mccfafrey and lamar jackson "
+        "Blurb": "Aaron Jones' 53 yard touchdown run carried Team Fech to their first championship over team Rosario whose roster stared Christian McCaffrey and Lamar Jackson ", 
+        "gif": "https://media.giphy.com/media/USD4xJHYawRTxTILvJ/giphy.gif"
+
+
+
+
+
     },
     {
         "id": 1,
@@ -37,6 +43,6 @@
             "Mark Ingrim"
         ],
         "ChampionShipScore": "N/A",
-        "Blurb": "Limited Data Available for this season"
+        "Blurb": "*Limited Data Available for this season"
     }
 ]

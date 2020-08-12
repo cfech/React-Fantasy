@@ -1,29 +1,43 @@
-import React from "react"
+import React, { useEffect } from "react"
 import './style.css'
+import classes from './styles.modules.css'
 
 function Champs(props) {
+    let playerList = props.otherPLayers.map(player => {
+        return <li>{player}</li>
+    })
+
+    // useEffect(() => {
+
+    //     console.log(classes)
+    // }, [])
+
+
+
     return (
 
         <div className="champDiv">
-            <h1 className="h1year">Year</h1>
+            <h1 className="h1year">{props.year}</h1>
             <hr />
 
             <div className="row nameRecord">
-                <h3 className="NameH3">Name</h3>
-                <h3 className="RecordH3">Record</h3>
+                <h3 className="NameH3">{props.name}</h3>
+                <h3 className="RecordH3">{props.record}</h3>
             </div>
 
             <div className="row">
-                <h3>mvp</h3>
+                <h3> MVP: {props.mvp}</h3>
             </div>
 
             <div className="row">
-                <div className="col-5">
-                    <img src={"https://via.placeholder.com/300x150"} />
+                <div className="col-5 mr-2">
+                    <img src={props.gif} />
                 </div>
-                <div className="col-5">
-                    <ul>
-                        <li>rest of team</li>
+
+                <div className="col-3 ml-1">
+                    <h4> Notable Players</h4>
+                    <ul className="PlayerList">
+                        {playerList}
                     </ul>
                 </div>
             </div>
@@ -31,12 +45,12 @@ function Champs(props) {
 
 
             <div className="row">
-                <h4>champion ship score</h4>
+                <h4>Score : {props.score}</h4>
 
             </div>
 
             <div className="row">
-                <p>blurb</p>
+                <p>{props.blurb}</p>
             </div>
         </div>
     )
